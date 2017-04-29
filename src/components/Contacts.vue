@@ -30,7 +30,7 @@
     <b-pagination size="sm" :total-rows="this.contactsList.length" :per-page="perPage" v-model="currentPage" />
   </div>
 
-  <b-modal id="confirm-modal" ref="confirmModal" title="Please confirm" close-title="cancel" @ok="delContacts(deleteID)">
+  <b-modal id="confirm-modal" ref="confirmModal" title="Please confirm" close-title="Cancel" @ok="delContacts(deleteID)">
     <div class="modal-body">
       are you sure you want to delete ID: {{deleteID}}?
     </div>
