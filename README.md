@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+#set up api server
+update your api server in src/api.js apiRoot = <url>
+
 # install dependencies
 npm install
 
